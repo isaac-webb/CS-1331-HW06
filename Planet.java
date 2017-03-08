@@ -36,7 +36,7 @@ public class Planet extends AstronomicalObject implements Embarkable,
             return toString() + " dwarfs you, larger than Jupiter with twelve "
                    + "moons";
         default:
-            return toString() + " is a very, VERY special planet :)";
+            return toString() + " is a VERY special planet :)";
         }
     }
 

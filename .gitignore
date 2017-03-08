@@ -2,3 +2,6 @@ instr/
 .DS_Store
 *.class
 html/
+production/
+tests/
+.idea/

@@ -36,7 +36,7 @@ public class Asteroid extends AstronomicalObject implements Attackable,
             return toString() + " is the largest in the belt, bigger than "
                    + "Mount Everest back on Earth";
         default:
-            return toString() + " is a very, VERY special asteroid :)";
+            return toString() + " is a VERY special asteroid :)";
         }
     }
 

@@ -33,7 +33,7 @@ public class Star extends AstronomicalObject implements Scannable {
         case GIGANTIC:
             return toString() + " shines brightly ahead";
         default:
-            return toString() + " is a very, VERY special star :)";
+            return toString() + " is a VERY special star :)";
         }
     }
 

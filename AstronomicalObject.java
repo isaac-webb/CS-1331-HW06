@@ -9,8 +9,8 @@ import java.util.Random;
   * @author iwebb6
   * @version 1.0
   */
-public abstract class AstronomicalObject implements Comparable<
-        AstronomicalObject> {
+public abstract class AstronomicalObject implements Comparable
+    <AstronomicalObject> {
     private static int objectCount = 0;
     private String id;
     private SizeClass size;
@@ -25,6 +25,14 @@ public abstract class AstronomicalObject implements Comparable<
         id = generateID();
         this.size = size;
         objectCount++;
+    }
+
+    /**
+      * A no args constructor as a back up that creates an AstronomicalObject of
+      * size Teeny. The constructor that takes size as an argument is preferred.
+      */
+    public AstronomicalObject() {
+        this(SizeClass.TEENY);
     }
 
     /**

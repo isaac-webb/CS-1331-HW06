@@ -36,7 +36,7 @@ public class Spaceship extends AstronomicalObject implements Attackable,
             return toString() + " is a sizeable expeditionary spacecraft with "
                    + "enough room to house a founding colony";
         default:
-            return toString() + " is a very, VERY special spaceship :)";
+            return toString() + " is a VERY special spaceship :)";
         }
 
     }

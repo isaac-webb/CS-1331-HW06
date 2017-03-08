@@ -8,9 +8,9 @@
   */
 public interface Scannable {
     /**
-     * Returns a String containing what an object looks like when scanned.
-     *
-     * @return A String containing the material composition of the object
-     */
+      * Returns a String containing what an object looks like when scanned.
+      *
+      * @return A String containing the material composition of the object
+      */
     String scanned();
 }
